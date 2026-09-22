@@ -1,0 +1,32 @@
+.rail {
+  width: min(29vw, 23.5rem);
+}
+
+main,
+footer {
+  margin-left: min(29vw, 23.5rem);
+}
+
+.about-copy p {
+  margin: 0;
+}
+
+.about-copy p + p {
+  margin-top: 1.15rem;
+}
+
+.chronology--compact .chronology__entry--undated {
+  grid-template-columns: 1fr;
+}
+
+.narrative-list h3 a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+@media (max-width: 860px) {
+  main,
+  footer {
+    margin-left: 0;
+  }
+}
