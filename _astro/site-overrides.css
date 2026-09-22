@@ -24,9 +24,37 @@ footer {
   text-underline-offset: 0.18em;
 }
 
+.rail__nav li {
+  font-size: 1rem;
+}
+
 @media (max-width: 860px) {
   main,
   footer {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .mobile-header {
+    min-height: 5rem;
+    padding: 1rem 1.1rem;
+  }
+
+  .mobile-header__name {
+    font-size: 1.25rem;
+    line-height: 1.05;
+    max-width: 10ch;
+  }
+
+  .mobile-header__photo {
+    width: 2.35rem;
+    height: 3.15rem;
+    margin-right: 0.85rem;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu {
+    flex-shrink: 0;
   }
 }
