@@ -37,8 +37,8 @@ footer {
 
 @media (max-width: 580px) {
   .mobile-header {
-    min-height: 5rem;
-    padding: 1rem 1.1rem;
+    min-height: 5.5rem;
+    padding: 0.9rem 1rem;
   }
 
   .mobile-header__name {
@@ -48,10 +48,12 @@ footer {
   }
 
   .mobile-header__photo {
-    width: 2.35rem;
-    height: 3.15rem;
-    margin-right: 0.85rem;
+    width: 4rem;
+    height: 3.5rem;
+    margin-right: 0.75rem;
     flex-shrink: 0;
+    object-fit: cover;
+    object-position: center 42%;
   }
 
   .mobile-menu {
